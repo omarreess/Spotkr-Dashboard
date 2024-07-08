@@ -1,0 +1,15 @@
+/* WebKit (Chrome, Safari) */
+/* width */
+.parentSidebar{
+    /* height: 100vh; */
+    position: sticky;
+    top: 0;
+}
+
+
+/* Firefox */
+/* width */
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: green red;
+} */

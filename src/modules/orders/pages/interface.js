@@ -1,0 +1,7 @@
+export const ORDERS_STATE_ENUM = {
+    PINDING: 0,
+    PAYMENT_DONE: 1,
+    CANCELED: 2,
+    COMPLETED: 3,
+    REFUNDED: 4
+}
