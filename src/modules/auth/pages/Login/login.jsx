@@ -106,7 +106,7 @@ console.log("FCM TOKEN", fcmToken)
               required
               fullWidth
               id="phone"
-              label="phone Address"
+              label="Phone Number"
               name="phone"
               autoComplete="phone"
               autoFocus

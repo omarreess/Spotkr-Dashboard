@@ -10,6 +10,10 @@
   padding: 2rem;
   text-align: center;
 }
+.scrollable-container {
+  max-height: 400px; /* Adjust based on your needs */
+  overflow: hidden;
+}
 *{
   font-family: "Cairo", sans-serif !important;
 }

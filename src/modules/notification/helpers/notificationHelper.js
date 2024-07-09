@@ -9,10 +9,10 @@ export const generateNotificationUrl = (notificationObject) => {
     const type = notificationObject.data.type;
 
     switch (type) {
-        // case NotificationTypeEnum.OfferRequestCreated:
-        //     return parseRoute(offerRequestsRoutes.SHOW, {id: notificationObject.data.model_id})
-        // case NotificationTypeEnum.SupportChat:
-        //     return parseRoute()
+        case NotificationTypeEnum.ACTIVITY_CREATED:
+            return parseRoute("thirdParty/3/activities/show/:id", {id: notificationObject.data.model_id})
+        case NotificationTypeEnum.ACTIVITY_UPDATED:
+            return parseRoute()
 
     }
 

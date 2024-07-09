@@ -1,6 +1,7 @@
 const NotificationTypeEnum = {
-    OfferRequestCreated: 'offer_request_created',
-    SupportChat: 'support_chat'
+     ACTIVITY_CREATED : 'activity_created',
+
+     ACTIVITY_UPDATED : 'activity_updated',
 }
 
 export default NotificationTypeEnum

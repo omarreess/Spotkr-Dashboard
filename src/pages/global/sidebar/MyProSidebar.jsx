@@ -89,9 +89,11 @@ const MyProSidebar = () => {
                       ? "/assets/logo.png"
                       : "/assets/logo.png"
                   }
+                  className="object-cover"
                   alt="logo"
-                  width="200px"
-                  height="200px"
+                  width="150px"
+                  height="150px"
+                  loading="lazy"
                   style={{
                     // margin: "0px 10px",
                     marginTop:"9rem",

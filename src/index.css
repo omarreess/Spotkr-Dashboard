@@ -19,6 +19,10 @@ body,
 * {
   font-family: "Cairo", sans-serif !important;
 }
+.scrollable-container {
+  max-height: 400px; /* Adjust based on your needs */
+  overflow: hidden;
+}
 ::-webkit-scrollbar {
   width: 15px;
   transition: all.5s !important;
