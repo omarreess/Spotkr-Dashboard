@@ -1,0 +1,8 @@
+- React
+- JavaScript
+- Firebase
+- Tailwind
+- Material UI
+- Formik
+- Yup for validation
+- Luxon for date manipulation
