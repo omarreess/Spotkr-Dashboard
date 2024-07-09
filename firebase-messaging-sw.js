@@ -2,15 +2,17 @@
 importScripts('https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging-compat.js');
 
-firebase.initializeApp({
-    apiKey: "AIzaSyBQaGZVcHdT1Kj0Jptw1HFcFD8V4E8K1xU",
-    authDomain: "wadgt-customer.firebaseapp.com",
-    projectId: "wadgt-customer",
-    storageBucket: "wadgt-customer.appspot.com",
-    messagingSenderId: "459996235838",
-    appId: "1:459996235838:web:28da293fde681a06ed296f",
-    measurementId: "G-0MEG7FYLW2"
-});
+firebase.initializeApp(
+ {
+  apiKey: "AIzaSyCTLYl6HFoxvnEzrTRQWb1yovvCr_UyfZg",
+  authDomain: "spotkr-78da0.firebaseapp.com",
+  projectId: "spotkr-78da0",
+  storageBucket: "spotkr-78da0.appspot.com",
+  messagingSenderId: "322887063378",
+  appId: "1:322887063378:web:99746053108798b6accc8b",
+  measurementId: "G-KK9RCJ9T93"
+}
+);
 
 const messaging = firebase.messaging();
 
