@@ -8,15 +8,15 @@ import DateFactory from "../../../utility/factories/DateFactory";
 import {generateNotificationUrl} from "../../notification/helpers/notificationHelper";
 
 const useFirebaseLogic = () => {
-    const vapidKey = 'BNwmFeN7KQqljoVA0w0btryza8yD7HSIyG9CS3LUIhlFrpyg9sg0S01j2XU6mR5vvKJOtqMxx5oyN4MZcgNCkdw';
+    const vapidKey = 'BHDCqj_CpoMfDkxIf1QCIIKdyyLCE81nF5h6C6D54ZXv7vxnDi2o_WrPnlxpCAr857wKM4EOIdRvUbg06EbUWM8';
     const firebaseConfig = {
-        apiKey: "AIzaSyBQaGZVcHdT1Kj0Jptw1HFcFD8V4E8K1xU",
-        authDomain: "wadgt-customer.firebaseapp.com",
-        projectId: "wadgt-customer",
-        storageBucket: "wadgt-customer.appspot.com",
-        messagingSenderId: "459996235838",
-        appId: "1:459996235838:web:28da293fde681a06ed296f",
-        measurementId: "G-0MEG7FYLW2"
+      apiKey: "AIzaSyCTLYl6HFoxvnEzrTRQWb1yovvCr_UyfZg",
+      authDomain: "spotkr-78da0.firebaseapp.com",
+      projectId: "spotkr-78da0",
+      storageBucket: "spotkr-78da0.appspot.com",
+      messagingSenderId: "322887063378",
+      appId: "1:322887063378:web:99746053108798b6accc8b",
+      measurementId: "G-KK9RCJ9T93"
     };
 
     const [fcmToken, setFcmToken] = useState(null);
